@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+const crypto = Crypto;
 
 const algorithm = 'aes-256-gcm';
 const ivLength = 16;
